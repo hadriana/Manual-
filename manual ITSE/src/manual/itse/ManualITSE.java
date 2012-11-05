@@ -26,6 +26,26 @@ public class ManualITSE
                 System.out.print("\nLa opcion 4: Lee una cadena y el rango entre 2 numeros");
      
                 Scanner manual = new Scanner (System.in);
-        // TODO code application logic here
+                
+         int opcion = manual.nextInt();
+            
+             switch (opcion)
+           {    
+       case 1:
+          String veronica = manual.next();
+                for (int i = veronica.length() - 1; i >= 0; i--)
+                {
+                    char c = veronica.charAt(i);
+                    System.out.print(c);
+
+                }
+                break;
+            case 2: 
+                }
+
     }
 }
+                
+    
+
+    
